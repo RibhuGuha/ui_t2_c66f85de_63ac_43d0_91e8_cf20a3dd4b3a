@@ -1,0 +1,75 @@
+{
+
+"booking": [
+    {
+        "key": "BookingId",
+        "type": "keyid"
+    }
+    
+    fieldJavaType, Date
+    ,{
+        "key": "StartDate",
+        "label": "StartDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "StartDate is required"
+        ]
+    }
+    fieldJavaType, Date
+    ,{
+        "key": "EndDate",
+        "label": "EndDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "EndDate is required"
+        ]
+    }
+    fieldJavaType, Integer
+    ,{
+        "key": "TotalNumberOfGuests",
+        "label": "TotalNumberOfGuests",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "TotalNumberOfGuests is required"
+        ]
+    }
+    fieldJavaType, Integer
+    ,{
+        "key": "NumberOfAdults",
+        "label": "NumberOfAdults",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "NumberOfAdults is required"
+        ]
+    }
+    fieldJavaType, Integer
+    ,{
+        "key": "NumberofChildren",
+        "label": "NumberofChildren",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "NumberofChildren is required"
+        ]
+    }
+]
+}
